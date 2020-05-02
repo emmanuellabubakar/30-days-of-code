@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="page-container">
+        <header>
+            <h1>Devex Code Challenge (DCC) Survey Form</h1>
+        </header>
+
+        <form>
+            <div class="row">
+                <div class="col-25"><label for="fullName" class="left-box">Name</label></div>
+                <div class="col-75"><input type="text" id="fullName" name="fullName" class="right-box"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-25"><label for="email" class="left-box">Email</label></div>
+                <div class="col-75"><input type="email" id="email" name="email" class="right-box"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-25"><label for="sourceOfExposure" class="left-box sourceOfExposure">How did you hear of
+                        DCC?</label></div>
+                <div class="col-75"><input list="sourceOfExposure" class="right-box">
+                    <datalist id="sourceOfExposure" name="sourceOfExposure">
+                        <option>Tech Community</option>
+                        <option>Social Media</option>
+                        <option>Friend</option>
+                    </datalist></div>
+            </div>
+
+            <div class="row">
+                <div class="col-25"><label for="suggestions" class="left-box suggestions">Suggestions for the next
+                        DCC?</label></div>
+                <div class="col-75"><textarea name="suggestions" class="right-box"></textarea></div>
+            </div>
+
+            <div class="row">
+                <div class="col-25"><label for="comment" class="left-box">Comment</label></div>
+                <div class="col-75"><textarea name="comment" class="right-box"></textarea></div>
+            </div>
+
+            <div class="row">
+                <label>How would you rate the DCC so far?</label><br>
+
+                <input type="radio" id="excellent" name="rate" value="excellent">
+                <label for="excellent" class="rate">Excellent</label>
+
+                <input type="radio" id="veryGood" name="rate" value="veryGood">
+                <label for="veryGood" class="rate">Very Good</label>
+
+                <input type="radio" id="good" name="rate" value="good">
+                <label for="good" class="rate">Good</label>
+
+                <input type="radio" id="fair" name="rate" value="fair">
+                <label for="fair" class="rate">Fair</label>
+
+                <input type="radio" id="poor" name="rate" value="poor">
+                <label for="poor" class="rate">Poor</label>
+            </div>
+
+            <input type="submit" value="Submit" class="submit-btn">
+
+        </form>
+    </div>
+
+</body>
+
+<footer>
+    <p>&copy; 2020 Abubakar Emmanuella Faridat</p>
+</footer>
+
+</html>
