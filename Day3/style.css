@@ -1,0 +1,107 @@
+
+html,body{
+    margin: 0;
+}
+body {
+    background-color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    padding: 5px 0;
+}
+
+h2,h3{
+    color: #1b1b1b;
+}
+
+h3 {
+    font-size: 12px;
+    text-align: center;
+}
+
+form {
+    margin-top: 80px;
+}
+
+label {
+    font-size: 12px;
+}
+
+input[type=text], input[type=password] {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 15px;
+    width: 310px;
+    margin: 5px 0;
+}input[type=checkbox] {
+    margin-right: 5px;
+}
+
+input[type=submit] {
+    border-radius: 10px;
+    padding: 15px;
+    width: 340px;
+    margin-bottom: 10px;
+    background-color: #6d6d6d;
+    border: none;
+    color: rgb(150, 148, 148);
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0 5px 30px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a:hover{
+    color: #1b1b1b;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.page-container {
+    display: flex;
+}
+
+.image {
+    width: 50vw;
+    height: 100vh;
+}
+
+.form-container {
+    margin: 0 auto;
+    padding: 5px;
+    width: 350px;
+}
+.checkbox-forgot-password-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 30px;
+}
+
+.social-icon-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-icon {
+    width: 50px;
+}
+
+@media screen and (max-width: 750px) {
+  .image-container{
+    visibility: collapse;
+  }
+
+  .page-container{
+      display: block;
+  }
+  form{
+      margin-top: -90vh;
+  }
+}
