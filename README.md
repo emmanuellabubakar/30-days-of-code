@@ -15,3 +15,6 @@ https://codepen.io/ellaystar/pen/xxwpgZr
 
 Day 5
 https://codepen.io/ellaystar/pen/xxwpvvo
+
+Day 6
+https://codepen.io/ellaystar/pen/vYNdRYe
