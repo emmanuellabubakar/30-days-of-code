@@ -1,0 +1,39 @@
+html,body{
+    margin: 0;
+}
+
+nav{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav a{
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 20px 5px 0
+}
+
+img{
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.left-container{
+    width: 50%;
+}
+
+.right-container{
+    width: 50%;
+    height:100vh;
+    background-color: #0026ca;
+}
