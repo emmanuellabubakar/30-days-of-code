@@ -1,6 +1,84 @@
-html, body{
+body{
     margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
+
 *{
     box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    overflow: hidden;
+}
+
+input[type=text] {
+    width: 300px;
+    height: 45px;
+    padding: 10px;
+    margin-top: 8px;
+    box-shadow: 0px 2px 10px #aeaeae, 0 0px 0px rgba(0,0,0,0.23);
+    border: none;
+    border-radius: 20px;
+  }
+
+.top-nav a{
+    color: #000000;
+    margin: 20px 15px 0;
+}
+
+.top-nav{
+    float: right;
+}
+
+.material-icons{
+    padding-top: 10px;
+    margin-right: 15px;
+}
+
+.user-initial{
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #607d8b;
+    padding: 10px;
+    margin-right: 15px;;
+}
+
+.google-homepage-image{
+    width: 50%;
+    margin: 60px auto;
+}
+.search-input{
+    margin-bottom: 20px;
+}
+
+p a, .nigerian-languages a {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.bottom-nav a, button a {
+    color: #4b636e;
+}
+
+.search-buttons button{
+    padding: 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #eeeeee;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
