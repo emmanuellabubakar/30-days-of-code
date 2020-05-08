@@ -21,3 +21,6 @@ https://codepen.io/ellaystar/pen/vYNdRYe
 
 Day 7
 https://codepen.io/ellaystar/pen/wvKmzGw
+
+Day 8
+https://codepen.io/ellaystar/pen/BaorMaz
