@@ -57,18 +57,18 @@ p{
     left: 38%;
     top: 50%;
     bottom: 50%;
-    width: 300px;
+    width: 280px;
     height: 70px;
     background-color: #263238;
     border-radius: 5px;
     padding: 15px;
 }
 
-@media only screen and (max-device-width: 700px) {
+@media screen and (max-width: 750px) {
     .container{
       background-attachment: scroll;
     }
     .image-text{
-        left: 20%;
+        left: 22%;
     }
-  }
+}
