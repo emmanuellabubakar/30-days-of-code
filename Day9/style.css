@@ -1,0 +1,13 @@
+body, html{
+    margin: 0;
+    background-image: url("https://images.unsplash.com/photo-1498579809087-ef1e558fd1da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*{
+    box-sizing: border-box;
+}
+
