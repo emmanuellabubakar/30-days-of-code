@@ -1,13 +1,146 @@
 body, html{
     margin: 0;
-    background-image: url("https://images.unsplash.com/photo-1498579809087-ef1e558fd1da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+    background-image: url("https://images.unsplash.com/photo-1454944338482-a69bb95894af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Merriweather', serif;
 }
 
 *{
     box-sizing: border-box;
 }
 
+p{
+    color: #ffff00;
+}
+
+h1{
+    font-size: 2.1rem;
+    color: #1b5e20;
+}
+
+.content-container{
+    width: 80%;
+    margin: auto;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas:
+      "mainleft mainleft mainrighttop"
+      "mainleft mainleft mainrightbottom";
+    
+    max-height: 500px;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.main-left-container{
+    grid-area: mainleft;
+    background-image: url("https://cdn.pixabay.com/photo/2014/01/09/10/14/kimchi-fried-rice-241051__340.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.main-right-container{
+    margin-left: 20px
+}
+
+.main-dish1, .main-dish2{
+    background-color: #ffff00;
+    padding: 20px;
+}
+.main-dish1{
+    grid-area: mainrighttop;
+    margin-bottom: 50px;
+}
+
+.main-dish2{
+    grid-area: mainrightbottom;
+}
+
+.main-text{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.menu-container{
+    background-color: #ffff00;
+    overflow: hidden;
+}
+
+.menu-container a{
+    float: left;
+    display: block;
+    color: #003300;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+}
+
+.menu-container a:hover{
+    color: #1b5e20;
+    font-size: 18px;
+}
+
+.menu-container .icon{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 600px){
+
+    main{
+        max-height: 800px;
+      grid-template-columns: auto;
+      grid-template-rows: 400px 1fr 1fr;
+      grid-template-areas:
+        "main-left"
+        "main-left-top"
+        "main-left-bottom";
+    }
+
+    .main-left-container{
+        grid-area: main-left;
+    }
+
+    .main-dish1{
+        grid-area: main-left-top;
+        margin-top: 10px;
+    }
+
+    .main-dish2{
+        grid-area: main-left-bottom;
+    }
+
+    .menu-container a:not(:first-child){
+        display: none;
+    }
+    .menu-container a.icon{
+        float:left;
+        display: block;
+    }
+
+    .menu-container .responsiveMenuContainer{
+        position: relative;
+    }
+    .menu-container .responsiveMenuContainer a.icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+
+    }
+
+}
