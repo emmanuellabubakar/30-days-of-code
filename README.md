@@ -27,3 +27,6 @@ https://codepen.io/ellaystar/pen/BaorMaz
 
 Day 9
 https://codepen.io/ellaystar/pen/RwWyKOM
+
+Day 10
+https://codepen.io/ellaystar/pen/ExVLOrK
