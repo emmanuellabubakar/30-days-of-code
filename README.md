@@ -30,3 +30,10 @@ https://codepen.io/ellaystar/pen/RwWyKOM
 
 Day 10
 https://codepen.io/ellaystar/pen/ExVLOrK
+
+Day 11
+Flex image Gallery Link:
+https://codepen.io/ellaystar/pen/rNOKJZK
+
+Grid Image Gallery Link
+https://codepen.io/ellaystar/pen/jObKZQL
