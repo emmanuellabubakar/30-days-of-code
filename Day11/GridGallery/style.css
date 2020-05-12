@@ -1,0 +1,101 @@
+html, body{
+    margin: 0;
+    text-align: center;
+    background-color: #00004f;
+    color: #bbbebf;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #edf0f2;
+    padding: 20px;
+}
+
+header{
+    padding: 10px;
+}
+
+h2,h3{
+    font-family: 'Merriweather', serif;
+}
+
+h2{
+    margin-top: 98px;/*edit to be responsive on mobile 60px;*/
+    font-size: 1.9rem;
+    font-weight: 900;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+img{
+    width: 100%;
+    height: 300px;
+}
+
+section{
+    width: 100%;
+}
+
+
+.brand-name a{
+    color: #18227c;
+    font-weight: 900;
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+}
+
+.nav-link{
+    padding: 0 30px; /*edit to be responsive on mobile*/
+}
+
+.nav-link a{
+    margin: 0 15px; /*edit to be responsive on mobile*/
+    color: #000051;
+    font-size: 20px; /*edit to be responsive on mobile*/
+}
+
+.top-fav-cont p{
+    padding: 10px 10px 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.movies, .cartoon{
+    background-color: #bbbebf;
+    color: #00004f;
+}
+
+.grid-cont{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(60px, 1fr));
+    grid-column-gap: 25px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .grid-cont{
+        grid-template-columns: repeat(2, minmax(60px, 1fr));
+        grid-column-gap: 25px;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 600px){
+    .grid-cont{
+        display: block;
+    }
+}
