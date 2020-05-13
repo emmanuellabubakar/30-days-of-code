@@ -1,0 +1,115 @@
+html, body{
+    margin: 0;
+    background: linear-gradient(90deg, #fff2ff, #debfe8);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    width: 25%;
+    list-style: none;
+    padding: 8px;
+}
+
+footer, footer a{
+    color: #fafafa;
+    padding: 20px;
+}
+
+footer, .main-nav{
+    background-color: #4a148c;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+}
+
+.main-nav a{
+    color: #fafafa;
+    padding: 5px;
+}
+
+.brand-name img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.sub-nav{
+    background-color: #e0bfe8;
+    padding: 16px;
+    padding-left: 35px;
+}
+
+.sub-nav a{
+    padding: 0 15px;
+    color:#4a148c;
+}
+
+.mobile-landing-page-cont{
+    background-color: #fafafa;
+}
+
+.app-info-cont{
+    width:600px;
+    height: 300px;
+    background-color: #263238;
+}
+
+.mobile-landing-page-nav{
+    display: flex;
+}
+
+/*Related design resources*/
+.related-resources-cont{
+    text-align: center;
+}
+
+.design-row{
+    display: flex;
+}
+
+.design-col{
+    flex: 25%;
+    width: 25%;
+    padding: 10px;
+}
+
+.design-col img{
+    width:100%;
+    height: 200px;
+}
+
+/*Footer*/
+
+.extra-info-cont{
+    display: flex;
+    width: 100%;
+}
+
+.extra-info-title{
+    font-size: 1.2rem;
+    color: #e0bfe8;
+}
+
+.copyright-social-cont{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-icon-cont{
+    margin-top: 15px;
+}
+
+.social-icon-cont i{
+    margin-right: 10px;
+}
+
