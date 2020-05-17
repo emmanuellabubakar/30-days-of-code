@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Sample Modal Popup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <link rel="icon" href="" type="image/png" sizes="32x32">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Lobster+Two&family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--Website main header-->
+  <header>
+    <h1>Code Tutor at your service</h1>
+    <button id="premiumBtn" class="premiumBtn">Try Premium</button>
+
+  </header>
+
+  <!--Button to open premium offer modal-->
+
+  <!--Premium offer modal container-->
+  <div id="premiumModal" class="premiumModal">
+
+    <!--Premium modal content-->
+    <div class="premiumModalContent">
+      <!--Premium modal header-->
+      <div class="premiumModalHeader">
+        <h3>Try Premium</h3>
+      </div>
+      <div class="premiumModalBody">
+        <!--Premium modal body that contains a list of premium offers-->
+        <ul>
+          <li>Unlimited access to resources</li>
+          <li>24/7 online support</li>
+          <li>Opportunity to win free event tickets</li>
+          <li>Priviledge to test unreleased feature and latest versions.</li>
+        </ul>
+      </div>
+      <div class="premiumModalFooter">
+        <!--Premium modal footer that contains call-to-action buttons-->
+        <button type="submit">Try it</button>
+        <button class="cancelBtn">Cancel</button>
+      </div>
+    </div>
+    </div>
+  </div>
+  
+  <script>
+    //Get the premium modal and declare as a variable
+    var modal = document.getElementById("premiumModal ");
+    
+    //Get the button that opens the premium modal
+    var btn = document.getElementById("premiumBtn");
+
+    //Get the cancel button that closes the premium modal
+    var cancel = document.getElementsByClassName("cancelBtn")[0];
+
+    //When the user clicks the "try it" button, it opens the premium modal
+    btn.onclick = function(){
+      premiumModal.style.display = "block";
+    }
+
+    //When the user clicks on the cancel button, it closes the premium modal
+
+    cancel.onclick = function(){
+      premiumModal.style.display = "none";
+    }
+  </script>
+</body>
+</html>

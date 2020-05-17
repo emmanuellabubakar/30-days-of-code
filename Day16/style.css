@@ -1,0 +1,96 @@
+body{
+    background: url("https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/*Header(container)*/
+header{
+    position: absolute;
+    margin: auto;
+    width:450px;
+    height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #381000;
+}
+
+/*Headings styles*/
+h1, h3{
+    font-family: 'Lobster Two', cursive;
+}
+
+h1{
+    font-size: 2.8rem;
+}
+
+h3{
+    font-size: 2rem; 
+    text-align: center;
+}
+
+/*All button*/ /**/
+button{
+    padding: 10px;
+    color: #44231b;
+    background-color: #f4511e;
+    border: 1px solid #ff844c;
+    border-left: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 18px;
+}
+
+/*button hover*/
+button:hover{
+    background-color: #ff844c;
+}
+
+/*Premium modal button*/
+.premiumBtn{
+    width: 350px;
+    margin-left: 30px;
+}
+/* The Modal (background) */
+.premiumModal{
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+  }
+  
+  /* Modal Content */
+  .premiumModalContent {
+    position: relative;
+    background-color: #ffbb93;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+.premiumModalFooter{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0 20px;
+}
+
+.premiumModalBody{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+@media screen and (min-width: 900px){
+    .premiumModalContent{
+        width: 35%;
+    }
+} 
