@@ -67,6 +67,13 @@
     cancel.onclick = function(){
       premiumModal.style.display = "none";
     }
+    
+    //The premium  modal closes when anywhere outside the modal is clicked
+    window.onclick = function (event) {
+      if (event.target == premiumModal) {
+        premiumModal.style.display = "none";
+      }
+    };
   </script>
 </body>
 </html>
