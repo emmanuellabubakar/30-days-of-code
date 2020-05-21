@@ -19,6 +19,7 @@ h3{
     margin-top: 35px;
     font-weight: 600;
 }
+
 h3, p, .checkbox-forgot-password-container{
     font-size: 14px;
 }
@@ -57,6 +58,10 @@ a:hover{
     height: 30rem;
     background-color: #f5f5f5;
     border-radius: 20px;
+}
+
+.sign-in-container{
+    margin-top: 65px;
 }
 
 .signup-container{
